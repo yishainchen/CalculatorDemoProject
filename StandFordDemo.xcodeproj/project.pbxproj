@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E467241CF8486100919074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E467231CF8486100919074 /* AppDelegate.swift */; };
+		22E467261CF8486100919074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E467251CF8486100919074 /* ViewController.swift */; };
+		22E467291CF8486100919074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E467271CF8486100919074 /* Main.storyboard */; };
+		22E4672C1CF8486100919074 /* StandFordDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22E4672A1CF8486100919074 /* StandFordDemo.xcdatamodeld */; };
+		22E4672E1CF8486100919074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E4672D1CF8486100919074 /* Assets.xcassets */; };
+		22E467311CF8486100919074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E4672F1CF8486100919074 /* LaunchScreen.storyboard */; };
+		22E4673C1CF8486100919074 /* StandFordDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E4673B1CF8486100919074 /* StandFordDemoTests.swift */; };
+		22E467471CF8486100919074 /* StandFordDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E467461CF8486100919074 /* StandFordDemoUITests.swift */; };
+		22E467551CF851C500919074 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E467541CF851C500919074 /* CalculatorBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E467381CF8486100919074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E467181CF8486100919074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E4671F1CF8486100919074;
+			remoteInfo = StandFordDemo;
+		};
+		22E467431CF8486100919074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E467181CF8486100919074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E4671F1CF8486100919074;
+			remoteInfo = StandFordDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22E467201CF8486100919074 /* StandFordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StandFordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E467231CF8486100919074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22E467251CF8486100919074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22E467281CF8486100919074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22E4672B1CF8486100919074 /* StandFordDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StandFordDemo.xcdatamodel; sourceTree = "<group>"; };
+		22E4672D1CF8486100919074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E467301CF8486100919074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22E467321CF8486100919074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E467371CF8486100919074 /* StandFordDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandFordDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E4673B1CF8486100919074 /* StandFordDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandFordDemoTests.swift; sourceTree = "<group>"; };
+		22E4673D1CF8486100919074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E467421CF8486100919074 /* StandFordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandFordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E467461CF8486100919074 /* StandFordDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandFordDemoUITests.swift; sourceTree = "<group>"; };
+		22E467481CF8486100919074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E467541CF851C500919074 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E4671D1CF8486100919074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E467341CF8486100919074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E4673F1CF8486100919074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E467171CF8486100919074 = {
+			isa = PBXGroup;
+			children = (
+				22E467221CF8486100919074 /* StandFordDemo */,
+				22E4673A1CF8486100919074 /* StandFordDemoTests */,
+				22E467451CF8486100919074 /* StandFordDemoUITests */,
+				22E467211CF8486100919074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E467211CF8486100919074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E467201CF8486100919074 /* StandFordDemo.app */,
+				22E467371CF8486100919074 /* StandFordDemoTests.xctest */,
+				22E467421CF8486100919074 /* StandFordDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E467221CF8486100919074 /* StandFordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22E467231CF8486100919074 /* AppDelegate.swift */,
+				22E467251CF8486100919074 /* ViewController.swift */,
+				22E467271CF8486100919074 /* Main.storyboard */,
+				22E4672D1CF8486100919074 /* Assets.xcassets */,
+				22E4672F1CF8486100919074 /* LaunchScreen.storyboard */,
+				22E467321CF8486100919074 /* Info.plist */,
+				22E4672A1CF8486100919074 /* StandFordDemo.xcdatamodeld */,
+				22E467541CF851C500919074 /* CalculatorBrain.swift */,
+			);
+			path = StandFordDemo;
+			sourceTree = "<group>";
+		};
+		22E4673A1CF8486100919074 /* StandFordDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E4673B1CF8486100919074 /* StandFordDemoTests.swift */,
+				22E4673D1CF8486100919074 /* Info.plist */,
+			);
+			path = StandFordDemoTests;
+			sourceTree = "<group>";
+		};
+		22E467451CF8486100919074 /* StandFordDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22E467461CF8486100919074 /* StandFordDemoUITests.swift */,
+				22E467481CF8486100919074 /* Info.plist */,
+			);
+			path = StandFordDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E4671F1CF8486100919074 /* StandFordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E4674B1CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemo" */;
+			buildPhases = (
+				22E4671C1CF8486100919074 /* Sources */,
+				22E4671D1CF8486100919074 /* Frameworks */,
+				22E4671E1CF8486100919074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandFordDemo;
+			productName = StandFordDemo;
+			productReference = 22E467201CF8486100919074 /* StandFordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E467361CF8486100919074 /* StandFordDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E4674E1CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemoTests" */;
+			buildPhases = (
+				22E467331CF8486100919074 /* Sources */,
+				22E467341CF8486100919074 /* Frameworks */,
+				22E467351CF8486100919074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E467391CF8486100919074 /* PBXTargetDependency */,
+			);
+			name = StandFordDemoTests;
+			productName = StandFordDemoTests;
+			productReference = 22E467371CF8486100919074 /* StandFordDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22E467411CF8486100919074 /* StandFordDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E467511CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemoUITests" */;
+			buildPhases = (
+				22E4673E1CF8486100919074 /* Sources */,
+				22E4673F1CF8486100919074 /* Frameworks */,
+				22E467401CF8486100919074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E467441CF8486100919074 /* PBXTargetDependency */,
+			);
+			name = StandFordDemoUITests;
+			productName = StandFordDemoUITests;
+			productReference = 22E467421CF8486100919074 /* StandFordDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E467181CF8486100919074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yishain;
+				TargetAttributes = {
+					22E4671F1CF8486100919074 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					22E467361CF8486100919074 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22E4671F1CF8486100919074;
+					};
+					22E467411CF8486100919074 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 22E4671F1CF8486100919074;
+					};
+				};
+			};
+			buildConfigurationList = 22E4671B1CF8486100919074 /* Build configuration list for PBXProject "StandFordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22E467171CF8486100919074;
+			productRefGroup = 22E467211CF8486100919074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E4671F1CF8486100919074 /* StandFordDemo */,
+				22E467361CF8486100919074 /* StandFordDemoTests */,
+				22E467411CF8486100919074 /* StandFordDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E4671E1CF8486100919074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E467311CF8486100919074 /* LaunchScreen.storyboard in Resources */,
+				22E4672E1CF8486100919074 /* Assets.xcassets in Resources */,
+				22E467291CF8486100919074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E467351CF8486100919074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E467401CF8486100919074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E4671C1CF8486100919074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E4672C1CF8486100919074 /* StandFordDemo.xcdatamodeld in Sources */,
+				22E467261CF8486100919074 /* ViewController.swift in Sources */,
+				22E467551CF851C500919074 /* CalculatorBrain.swift in Sources */,
+				22E467241CF8486100919074 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E467331CF8486100919074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E4673C1CF8486100919074 /* StandFordDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E4673E1CF8486100919074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E467471CF8486100919074 /* StandFordDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E467391CF8486100919074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E4671F1CF8486100919074 /* StandFordDemo */;
+			targetProxy = 22E467381CF8486100919074 /* PBXContainerItemProxy */;
+		};
+		22E467441CF8486100919074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E4671F1CF8486100919074 /* StandFordDemo */;
+			targetProxy = 22E467431CF8486100919074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22E467271CF8486100919074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E467281CF8486100919074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22E4672F1CF8486100919074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E467301CF8486100919074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E467491CF8486100919074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E4674A1CF8486100919074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E4674C1CF8486100919074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StandFordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishain.StandFordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22E4674D1CF8486100919074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StandFordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishain.StandFordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22E4674F1CF8486100919074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StandFordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishain.StandFordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandFordDemo.app/StandFordDemo";
+			};
+			name = Debug;
+		};
+		22E467501CF8486100919074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StandFordDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishain.StandFordDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StandFordDemo.app/StandFordDemo";
+			};
+			name = Release;
+		};
+		22E467521CF8486100919074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StandFordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishain.StandFordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StandFordDemo;
+			};
+			name = Debug;
+		};
+		22E467531CF8486100919074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = StandFordDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yishain.StandFordDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = StandFordDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E4671B1CF8486100919074 /* Build configuration list for PBXProject "StandFordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E467491CF8486100919074 /* Debug */,
+				22E4674A1CF8486100919074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E4674B1CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E4674C1CF8486100919074 /* Debug */,
+				22E4674D1CF8486100919074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22E4674E1CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E4674F1CF8486100919074 /* Debug */,
+				22E467501CF8486100919074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22E467511CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E467521CF8486100919074 /* Debug */,
+				22E467531CF8486100919074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22E4672A1CF8486100919074 /* StandFordDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22E4672B1CF8486100919074 /* StandFordDemo.xcdatamodel */,
+			);
+			currentVersion = 22E4672B1CF8486100919074 /* StandFordDemo.xcdatamodel */;
+			path = StandFordDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22E467181CF8486100919074 /* Project object */;
+}
