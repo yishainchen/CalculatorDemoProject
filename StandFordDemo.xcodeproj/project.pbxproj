@@ -103,12 +103,12 @@
 			children = (
 				22E467231CF8486100919074 /* AppDelegate.swift */,
 				22E467251CF8486100919074 /* ViewController.swift */,
+				22E467541CF851C500919074 /* CalculatorBrain.swift */,
 				22E467271CF8486100919074 /* Main.storyboard */,
 				22E4672D1CF8486100919074 /* Assets.xcassets */,
 				22E4672F1CF8486100919074 /* LaunchScreen.storyboard */,
 				22E467321CF8486100919074 /* Info.plist */,
 				22E4672A1CF8486100919074 /* StandFordDemo.xcdatamodeld */,
-				22E467541CF851C500919074 /* CalculatorBrain.swift */,
 			);
 			path = StandFordDemo;
 			sourceTree = "<group>";
@@ -492,6 +492,7 @@
 				22E4674D1CF8486100919074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22E4674E1CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				22E467501CF8486100919074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22E467511CF8486100919074 /* Build configuration list for PBXNativeTarget "StandFordDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +510,7 @@
 				22E467531CF8486100919074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
